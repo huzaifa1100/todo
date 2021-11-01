@@ -1,0 +1,81 @@
+* {
+  /* box-sizing: border-box; */
+  /* margin: 0;
+  padding: 0; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    #8d448b 0%,
+    #6472fd 100%
+  );
+}
+
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #8d448b; }
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-row {
+  
+  margin: 4px auto;
+  color: #fff;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-row:nth-child(2n + 1) {
+  background: #ac5aa9;
+}
+
+.todo-row:nth-child(2n + 2) {
+  background: #666eca;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+.scroller {
+  overflow:scroll;
+  height: 400px;
+}
+
+.logout-icon {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.bt {
+padding: 12px;
+}
